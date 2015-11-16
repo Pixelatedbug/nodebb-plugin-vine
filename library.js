@@ -2,7 +2,7 @@
     "use strict";
 
     var Vine = {},
-        embed = '<iframe class="vine-embed" src="https://vine.co/v/$1/embed/postcard?related=0" width="480" height="480" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>';
+        embed = '<iframe width="480" height="480" src="https://vine.co/v/eE3VHJwPF19/embed/simple" frameborder="0" scrolling="no" allowtransparency="true"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>';
     var link = /<a href="(?:https?:\/\/)?(?:vine\.co)\/v\/?(.+)">.+<\/a>/g;
 
     Vine.parse = function(data, callback) {
